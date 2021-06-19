@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+        body {
+            font-family: 'Darker Grotesque', sans-serif;
+
+          color: whitesmoke;
+          margin: 0px;
+          padding: 0px;
+          background: url("img/896821.jpg");
+        }
+        .left {
+          display: inline-block;
+          /* border: 2px solid red; */
+          position: absolute;
+          left: 30px;
+          top: 20px;
+        }
+
+        .left img{
+            width: 70px;
+            filter: invert(100%);
+        }
+        .left div{
+            text-align: center;
+            line-height: 22px;
+             font-size: 19px;
+        }
+        .left div:hover{
+            color: rgb(255, 151, 151);
+        }
+
+
+        .mid {
+          /* border: 2px solid green; */
+          position: relative;
+        left: -34px;
+          display: block;
+          width: 37%;
+          margin: 18px auto;
+        }
+
+        .right {
+          position: absolute;
+          right: 34px;
+          top: 31px;
+          display: inline-block;
+          /* border: 2px solid yellow; */
+        }
+
+        .navbar{
+            display: inline-block;
+        }
+
+        .navbar li{
+
+            display: inline-block;
+            font-size: 25px;
+        }
+        .navbar li a {
+            color: rgb(245, 245, 245);
+            text-decoration: none;
+            padding: 24px 23px;
+        }
+
+
+        .navbar li a:hover, .navbar li a.active {
+            text-decoration: underline;
+            color: rgb(255, 0, 0);
+        }
+
+        .btn{
+            font-family: 'Darker Grotesque', sans-serif;
+            margin: 0px 9px;
+            background-color: black;
+            color: wheat;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            color: rgb(255, 94, 0);
+        }
+
+        .container{
+
+        border: 2px solid palevioletred;
+        margin: 133px 64px;
+        padding: 50px 73px;
+        width: 31%;
+        display: block;
+        border-radius: 21px;
+    }
+    .form-group input{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(255, 0, 76);
+    display: block;
+    width: 362px;
+    padding: 0px;
+    border: 1px solid black;
+    margin: 5px auto;
+    font-size: 23px;
+    border-radius: 12px;
+
+    }
+    
+    .container h1{
+     text-align: center;
+    position: relative;
+    top: -22px;
+    letter-spacing: 4px;
+    }
+    .container h1:hover{
+        color: rgba(255, 39, 39, 0.658);
+    }
+
+    .container button{
+        padding: 6px;
+    display: block;
+    width: 29%;
+    margin: 26px auto;
+    }
+  </style>
+
+  <body>
+    <header class="header">
+      <!-- left box for logo  -->
+      <div class="left">
+        <img src="img/unnamed.png" alt="" />
+        <div>Dark Web</div>
+      </div>
+      <!-- mid box for navbar  -->
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#" class="active"> Home</a></li>
+          <li><a href="#"> About Us</a></li>
+          <li><a href="#"> Dark web</a></li>
+          <li><a href="#"> Contact us</a></li>
+        </ul>
+      </div>
+
+      <!-- right box for buttions  -->
+      <div class="right">
+        <button class="btn">Call us now</button>
+        <button class="btn">Email us now</button>
+      </div>
+    </header>
+    <div class="container">
+<h1>Yo Join the Dark web! , biatch</h1>
+<form action="#asd.php">
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Name">
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Alias">
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Age">
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Email">
+    </div>
+    <button class="btn">Submit</button>
+</form>
+    </div>
+  </body>
+</html>
